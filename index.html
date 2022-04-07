@@ -11,15 +11,24 @@
 <body>
     <header class="header">
         <div class="container header__wrp">
-        <div><img class="header__logo" src="img/logo-img.png" alt="icon">
-            <img class="header__loupe" src="img/loupe.svg.svg" alt="loupe">
-        </div>
-        <ul class="header__list">
-            <li class="header__item">
-                <button class="header__buttom">
-                    <img src="img/burger-ico.svg.svg" alt="burger-ico">
-                </button>
-            </li>
+            <div>
+                <img class="header__logo" src="./img/logo-img.png" alt="icon">
+                <img class="header__loupe" src="./img/loupe.svg.svg" alt="loupe">
+            </div>
+            <ul class="header__list">
+                <div class="header__item">
+                    <button class="header__button">
+                        <img src="./img/burger-ico.svg.svg" alt="burger-ico">
+                    </button>
+                    <nav class="header-menu">
+                        menu
+                        <ul class="header-menu-list">
+                          <li><a href="#" class="header-menu-link">link</a></li>
+                          <li><a href="#" class="header-menu-link">link</a></li>
+                          <li><a href="#" class="header-menu-link">link</a></li>
+                        </ul>
+                      </nav>
+                    </div>              
             <li class="header__item">
                 <a href="#" class="header__link">
                     <img src="img/person-ico.svg.svg" alt="person-ico">
@@ -27,7 +36,7 @@
             </li>
             <li class="header__item">
                 <a href="#" class="header__link">
-                    <img src="img/person-ico.svg.svg" alt="person-ico">
+                    <img src="img/basket-ico.svg" alt="person-ico">
                 </a>
             </li>
         </ul>
@@ -126,52 +135,125 @@
             <ul class="catalog__list">
                 <li class="catalog__item">
                     <img class="catalog__item-image" src="img/product-1.jpg" alt="product-1">
-                    <h3 class="catalog__title">ellery x m`o capsule</h3>
-                    <p class="catalog__text">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery
+                    <h3 class="catalog__caption"><b>ELLERY X M'O CAPSULE</b></h3>
+                    <p class="catalog__description">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery
                         teams up with Moda Operandi.</p>
-                    <p>$52.00</p>
+                    <p class="catalog__price">$52.00</p>
                 </li>
-                <li>
+                <li class="catalog__item">
                     <img src="img/product-2.jpg" alt="product-1">
-                    <h3>ellery x m`o capsule</h3>
-                    <p>Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery
+                    <h3 class="catalog__caption"><b>ELLERY X M'O CAPSULE</b></h3>
+                    <p class="catalog__description">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery
                         teams up with Moda Operandi.</p>
-                    <p>$52.00</p>
+                    <p class="catalog__price">$52.00</p>
                 </li>
-                <li>
+                <li class="catalog__item">
                     <img src="img/product-3.jpg" alt="product-1">
-                    <h3>ellery x m`o capsule</h3>
-                    <p>Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery
+                    <h3 class="catalog__caption"><b>ELLERY X M'O CAPSULE</b></h3>
+                    <p class="catalog__description">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery
                         teams up with Moda Operandi.</p>
-                    <p>$52.00</p>
+                    <p class="catalog__price">$52.00</p>
                 </li>
-                <li>
+                <li class="catalog__item">
                     <img src="img/product-4.jpg" alt="product-1">
-                    <h3>ellery x m`o capsule</h3>
-                    <p>Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery
+                    <h3 class="catalog__caption"><b>ELLERY X M'O CAPSULE</b></h3>
+                    <p class="catalog__description">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery
                         teams up with Moda Operandi.</p>
-                    <p>$52.00</p>
+                    <p class="catalog__price">$52.00</p>
                 </li>
-                <li>
+                <li class="catalog__item">
                     <img src="img/product-5.jpg" alt="product-1">
-                    <h3>ellery x m`o capsule</h3>
-                    <p>Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery
+                    <h3 class="catalog__caption"><b>ELLERY X M'O CAPSULE</b></h3>
+                    <p class="catalog__description">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery
                         teams up with Moda Operandi.</p>
-                    <p>$52.00</p>
+                    <p class="catalog__price">$52.00</p>
                 </li>
-                <li>
+                <li class="catalog__item">
                     <img src="img/product-6.jpg" alt="product-1">
-                    <h3>ellery x m`o capsule</h3>
-                    <p>Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery
+                    <h3 class="catalog__caption"><b>ELLERY X M'O CAPSULE</b></h3>
+                    <p class="catalog__description">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery
                         teams up with Moda Operandi.</p>
-                    <p>header</p>
+                    <p class="catalog__price">$52.00</p>
                 </li>
             </ul>
             </div> 
         </section>
+        <div class="container button__wrp"><button class="button__title" type="submit" name="submit_button" value="main_button">Browse All Product</button></div>
     </main>
     <footer>
-
+    <section class="footer">
+            <div class="container footer__wrp">
+            <ul class="footer__list">
+                <li class="footer__item">
+                    <a href="#" class="footer__link">
+                        <img src="img/car-ico.svg" alt="car-ico">
+                    </a>
+                <h3 class="footer__title">Free Delivery</h3>
+                <p class="footer__text">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
+                </li>
+                <li class="footer__item">
+                    <a href="#" class="footer__link">
+                        <img src="img/percent-ico.svg" alt="percent-ico">
+                    </a>
+                <h3 class="footer__title">Sales & discounts</h3>
+                <p class="footer__text">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
+                </li>
+                <li class="footer__item">
+                    <a href="#" class="footer__link">
+                        <img src="img/queen-ico.svg" alt="queen-ico">
+                    </a>
+                <h3 class="footer__title">Quality assurance</h3>
+                <p class="footer__text">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
+                </li>
+            </ul>
+        </div>
+        </section> 
+        <section class="basement">
+        <div class="container basement__wrp">
+            <ul class="basement__list">
+                <li class="basement__item">
+                    <a href="#" class="basement__link">
+                        <img src="img/girl-ico.svg" alt="girl-ico">
+                    </a>
+                <p class="basement__text">“Vestibulum quis porttitor dui! Quisque viverra nunc mi, <em>a pulvinar purus condimentum“</em></p>
+                </li>
+                <li class="basement__item">
+                <p class="basement__subscribe"> <strong>SUBSCRIBE</strong> <span class="subscribe__second">FOR OUR NEWLETTER AND PROMOTION</span></p>
+                 <form action="#">
+                     <div class="container button__wrp"><input class="subscribe__title" type="email" required placeholder="Enter Your Email">
+                     <button class="subscribe__title__second" type="submit">Subscribe</button></div>
+                 </form>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="last__footer">
+        <div class="container last__footer__wrp">
+        <div> <p class="last__footer__text">© 2021  Brand  All Rights Reserved.</p>
+        </div>
+        <ul class="header__list">
+            <li class="last__footer__item">
+                <button class="last__footer__buttom">
+                    <img src="img/facebook-ico.svg" alt="facebook-ico">
+                </button>
+            </li>
+            <li class="last__footer__item">
+                <a href="#" class="last__footer_link">
+                    <img src="img/instagram-ico.svg" alt="instagram-ico">
+                </a>
+            </li>
+            <li class="last__footer__item">
+                <a href="#" class="last__footer_link">
+                    <img src="img/pinterest-ico.svg" alt="pinterest-ico">
+                </a>
+            </li>
+            <li class="last__footer__item">
+                <a href="#" class="last__footer_link">
+                    <img src="img/twitter-ico.svg" alt="twitter-ico">
+                </a>
+            </li>
+        </ul>
+    </section>
     </footer>
 </body>
 
