@@ -1,0 +1,129 @@
+.catalog__title {
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.catalog__text {
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.catalog__list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.catalog__item {
+    width: 360px;
+    min-height: 420px;
+    margin: 50px 0 0 0;
+    background-color: $light-grey;
+}
+.catalog__price {
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: $dark-pink;
+    margin: 18px 0 0 0;
+}
+.catalog__description {
+font-family: 'Lato';
+font-weight: 300;
+font-size: 14px;
+line-height: 17px;
+color: $dark-grey;
+margin: 13px 0 0 0;
+}
+.catalog__caption {
+font-family: 'Lato';
+font-weight: 400;
+font-size: 13px;
+line-height: 16px;
+color: $black;
+margin: 25px 0 0 0;
+}
+.catalog__button {
+    width: 212px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.04em;
+    color: var(--white);
+    padding: 15px 0;
+    text-decoration: none;
+    background-color: $dark-pink;
+    border: 2px solid $red;
+}
+.cart-wrapper {
+    position: relative;
+}
+.cart {
+    min-height: 200px;
+    width: 360px;
+  }
+  .overlay {
+    width: 100%;
+    min-height: 420px;
+    background: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 0;
+  }
+  .button {
+    position: absolute;
+    top: 46%;  
+    left: 45%;
+    transform: translate(-50%, -50%);
+    padding: 14px 38px;
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px; 
+  }
+  .cart-wrapper-overlay {
+    position: relative;
+  }
+  .button-overlay {
+    position: absolute;
+    top: 50%;  
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .cart-wrapper-overlay:before {
+    content: '';
+    width: 100%;
+    min-height: 150px;
+    background: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 0;
+  }
+  
+  .overlay,
+  .button {
+    display: none;
+  }
+  
+  .cart-wrapper-overlay:before {
+    display: none;
+  }
+  
+  .cart:hover .button,
+  .cart:hover .overlay,
+  .cart:hover .cart-wrapper-overlay:before {
+    display: block;
+  } 
