@@ -28,7 +28,7 @@
     @include font(16px, 19px, 400);
 
     @include mobile {
-        margin: 40px; 0 0 0;
+        margin: 40px, 0 0 0;
     }
     }
     &__buttom {
@@ -40,14 +40,14 @@
     }
     &__list {
         display: flex;
-        margin: 0 230px; 0 0;
+        margin: 0 230px, 0 0;
 
      @include tablet {
-         margin: 0 33px; 0 0;
+         margin: 0 33px, 0 0;
      }
 
      @include tablet {
-        margin: 43px; 0 0 0;
+        margin: 43px, 0 0 0;
     }
     }
 }

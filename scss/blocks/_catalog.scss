@@ -29,10 +29,18 @@
 
 }
 .catalog__item {
-    width: 360px;
+    width: 31.6%;
     min-height: 420px;
     margin: 50px 0 0 0;
     background-color: $light-grey;
+
+    @include tablet-mid-width {
+      width: 49%;
+    }
+
+    @include tablet-mobile-mid {
+      width: 100%;
+    }
 
     @include tablet {
       margin: 36px 0 0 0;
@@ -41,6 +49,15 @@
     @include mobile {
       margin: 37px 0 0 0;
     }
+}
+
+.catalog__item-image {
+width: 100%;
+object-fit: cover;
+
+@include tablet-mid-width {
+  width: 49%;
+}
 }
 .catalog__price {
     font-family: 'Lato';

@@ -23,6 +23,14 @@
 }
 .footer__item {
     justify-content: space-between;
+    width: 22.5%;
+
+    @include tablet {
+        width: 46.8%;
+    }
+    @include mobile {
+      width: 100%;
+    }
 }
 .footer__main {
     width: 1600px;

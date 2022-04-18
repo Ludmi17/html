@@ -14,7 +14,7 @@
             padding: 0 0 0 68px;
         }
 
-        @include mobile {
+        @include tablet-mobile-mid {
             min-height: 363px;
             padding: 0 0 0 92px;
         }
@@ -51,14 +51,17 @@
   
     &__subtitle-pink {
         color: $dark-pink;
+        @include font ($font-size: 20px, $font-style: italic);
     }
     &__img {
+        width: 50%;
+        object-fit: cover;
         @include tablet {
             width: 50%;
             min-height: 370px;
             object-fit: cover;
         }
-    @include mobile {
+    @include tablet-mobile-mid {
         display: none;
     }
     }
@@ -66,3 +69,4 @@
 @include mobile {
     @include font (20px, 24px, 700)
 }
+

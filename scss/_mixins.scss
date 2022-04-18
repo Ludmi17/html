@@ -11,13 +11,23 @@ font-style: $font-style;
     align-items: center;
 }   
 
+@mixin tablet-mid-width {
+    @media (max-width: $tablet-mid-width) {
+        @content;
+}
+
 @mixin tablet {
     @media (max-width: $desktop-width) {
+          @content;
+}
+}
+@mixin tablet-mobile-mid {
+    @media (max-width: $tablet-mid-width) {
           @content;
 }
 }
 @mixin mobile {
     @media (max-width: $tablet-width) {
         @content;
-}
+    }
 }

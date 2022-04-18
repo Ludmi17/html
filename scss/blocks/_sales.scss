@@ -11,7 +11,7 @@
     align-items: center;
     padding: 20px;
     box-sizing: border-box;
-    width: 360px;
+    width: 31.6%;
     min-height: 260px;
     background-color: $sales-background-color;
     margin: 0 0 32px;
@@ -19,11 +19,11 @@
     @include flex-center;
 
     @include tablet {
-        width: 232px;
+        width: 31.6%;
         min-height: 167px;
     }
     @include mobile {
-      width: 343px;
+      width: 100%;
       min-height: 247px;
     }
 
@@ -56,4 +56,5 @@ color: $white;
 &__title {
 color: $dark-pink;
 @include font(24px, 29px, 700);
+}
 }
