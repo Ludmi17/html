@@ -12,6 +12,11 @@
       }
       &__link {
           margin: 0 0 0 34px;
+          display: block;
+
+          @include mobile {
+            background-color: red;
+          }
       }
       &__list {
           display: flex;
@@ -23,6 +28,12 @@
           border: none;
           background-color: transparent;
       }
+      &__title {
+          color: #222222;
+          text-transform: uppercase;
+          padding: 37px 0 24px 34px;
+          @include font(14px, 17px, 700);
+        }
       &__item {
           display: flex;
           justify-content: flex-end;
@@ -59,4 +70,4 @@
         }
 }
 
-    
+ 

@@ -5,6 +5,14 @@
     justify-content: center;
     align-items: center;
     @include font(30px, 36px, 400);
+
+    @include tablet {
+      @include font (30px, 36px, 400);
+  }
+
+  @include mobile {
+      @include font (30px, 36px, 400);
+  }
 }
 .catalog__text {
     font-family: 'Lato';
@@ -25,6 +33,14 @@
     min-height: 420px;
     margin: 50px 0 0 0;
     background-color: $light-grey;
+
+    @include tablet {
+      margin: 36px 0 0 0;
+    }
+
+    @include mobile {
+      margin: 37px 0 0 0;
+    }
 }
 .catalog__price {
     font-family: 'Lato';
@@ -46,7 +62,7 @@ margin: 25px 0 0 0;
 }
 .catalog__button {
     width: 212px;
-    margin: 0 auto;
+    margin: 45px auto;
     display: flex;
     justify-content: center;
     letter-spacing: 0.04em;
@@ -56,6 +72,13 @@ margin: 25px 0 0 0;
     background-color: $dark-pink;
     border: 2px solid $red;
     @include font(16px, 19px, 400);
+
+    @include tablet {
+      margin: 33px auto;
+    }
+    @include mobile {
+      margin: 41px auto;
+    }
 }
 .cart-wrapper {
     position: relative;

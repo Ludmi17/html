@@ -16,6 +16,14 @@
         font-style: italic;
         text-align: center;
         @include font(20px, 24px, 400);
+
+        @include tablet {
+            margin: 0 0 48px, 0;
+        }
+
+        @include mobile {
+            margin: 0 0 59px, 0;
+        }
     }
     &__list {
         display: flex;
@@ -24,6 +32,14 @@
     &__second {
         display: block;
         @include font(18px, 30px, $font-weight: 400);
+
+        @include tablet {
+            margin: 0 0 27px, 0;
+        }
+
+        @include mobile {
+            margin: 0 0 22px, 0;
+        }
     }
     &__main {
         width: 1600px;
@@ -38,6 +54,18 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+
+        @include tablet {
+            flex-direction: column;
+            width: 768px;
+            min-height: 693px;
+
+        }
+        @include mobile {
+            flex-direction: column;
+            width: 609px;
+            min-height: 550px;
+        }
       }
       .girl__face {
         width: 360px;

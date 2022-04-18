@@ -10,3 +10,14 @@ font-style: $font-style;
     justify-content: center;
     align-items: center;
 }   
+
+@mixin tablet {
+    @media (max-width: $desktop-width) {
+          @content;
+}
+}
+@mixin mobile {
+    @media (max-width: $tablet-width) {
+        @content;
+}
+}

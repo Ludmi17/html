@@ -1,16 +1,35 @@
 .last__footer {
     background-color: $black;
+    width: 1600px;
+    min-height: 79px;
+
+    @include tablet {
+        width: 768px;
+    }
+
+    @include mobile {
+        width: 375px;
+        min-height: 143px;
+    }
 
     &__wrp {
         display: flex;
         justify-content: space-between;
         min-height: 75px;
         align-items: center;
+
+        @include mobile {
+            flex-direction: column;
+        }
     }
     &__text {
         font-family: 'Lato';
     color: #FBFBFB;
     @include font(16px, 19px, 400);
+
+    @include mobile {
+        margin: 40px; 0 0 0;
+    }
     }
     &__buttom {
         border: none;
@@ -19,7 +38,16 @@
   &__link {
         margin: 0 0 0 7px;
     }
-    &__footer__list {
+    &__list {
         display: flex;
+        margin: 0 230px; 0 0;
+
+     @include tablet {
+         margin: 0 33px; 0 0;
+     }
+
+     @include tablet {
+        margin: 43px; 0 0 0;
+    }
     }
 }
