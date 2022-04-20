@@ -1,6 +1,5 @@
 .footer {
     background-color: $black;
-}
 .footer__wrp {
     display: flex;
     justify-content:space-between;
@@ -91,4 +90,5 @@ text-align: center;
     @include mobile {
         margin: 0 0 47px;
     }
+}
 }

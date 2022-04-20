@@ -12,7 +12,7 @@
         min-height: 143px;
     }
 
-    &__wrp {
+    .last__footer__wrp {
         display: flex;
         justify-content: space-between;
         min-height: 75px;
@@ -22,7 +22,7 @@
             flex-direction: column;
         }
     }
-    &__text {
+    .last__footer__text {
         font-family: 'Lato';
     color: #FBFBFB;
     @include font(16px, 19px, 400);
@@ -31,14 +31,14 @@
         margin: 40px, 0 0 0;
     }
     }
-    &__buttom {
+    .last__footer__buttom {
         border: none;
         background-color: transparent;
     }
-  &__link {
+    .last__footer__link {
         margin: 0 0 0 7px;
     }
-    &__list {
+    .last__footer__list {
         display: flex;
         margin: 0 230px, 0 0;
 
