@@ -1,0 +1,53 @@
+.last__footer {
+    background-color: $black;
+    width: 1600px;
+    min-height: 79px;
+
+    @include tablet {
+        width: 768px;
+    }
+
+    @include mobile {
+        width: 375px;
+        min-height: 143px;
+    }
+
+    .last__footer__wrp {
+        display: flex;
+        justify-content: space-between;
+        min-height: 75px;
+        align-items: center;
+
+        @include mobile {
+            flex-direction: column;
+        }
+    }
+    .last__footer__text {
+        font-family: 'Lato';
+    color: #FBFBFB;
+    @include font(16px, 19px, 400);
+
+    @include mobile {
+        margin: 40px, 0 0 0;
+    }
+    }
+    .last__footer__buttom {
+        border: none;
+        background-color: transparent;
+    }
+    .last__footer__link {
+        margin: 0 0 0 7px;
+    }
+    .last__footer__list {
+        display: flex;
+        margin: 0 230px, 0 0;
+
+     @include tablet {
+         margin: 0 33px, 0 0;
+     }
+
+     @include tablet {
+        margin: 43px, 0 0 0;
+    }
+    }
+}
